@@ -1,5 +1,6 @@
 import { useState } from "react";
 import data from "./MovieData.json";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const mds = data.MovieData;
 
@@ -8,10 +9,12 @@ function MovieList() {
 
   return (
     <>
-      <div>
+      <br />
+      <div className="text-center">
         <h1>Joel Hilton's Movie Collection</h1>
       </div>
-      <table className="table">
+      <br />
+      <table className="table table-bordered table-striped">
         <thead>
           <tr>
             <th>Title</th>

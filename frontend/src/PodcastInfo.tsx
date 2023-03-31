@@ -1,10 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function Podcast() {
   return (
-    <div>
-      <p>
-        Our podcast is on
-        <a href="https://baconsale.com/">the website.</a>
-      </p>
+    <div className="text-center">
+      <br />
+      <h5>
+        Our podcast is on this
+        <a href="https://baconsale.com/"> website.</a>
+      </h5>
     </div>
   );
 }
