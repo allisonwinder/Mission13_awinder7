@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, Route, Routes } from "react-router-dom";
 import Welcome from "./Welcome";
 import Podcast from "./PodcastInfo";
-import MovieList from "./Movies";
+import MovieList from "./movie/MovieList";
 
 function App() {
   return (

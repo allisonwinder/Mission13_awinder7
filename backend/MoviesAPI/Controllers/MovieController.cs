@@ -17,7 +17,10 @@ namespace MoviesAPI.Controllers
 
         public IEnumerable<Movie> Get()
         {
-            return context.Movies.ToArray();
+            return context.Movies
+                .Where(x => x.Edited != "")
+                .OrderBy(x => x.Title)
+                .ToArray();
         }
     }
 }
