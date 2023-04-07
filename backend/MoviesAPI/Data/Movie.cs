@@ -15,7 +15,7 @@ namespace MoviesAPI.Data
 
         public string? Director { get; set; }
 
-        public int? Rating { get; set; }
+        public string? Rating { get; set; }
 
         public string? Edited { get; set; }
 
